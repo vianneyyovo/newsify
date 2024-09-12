@@ -2,26 +2,106 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.top-header {
+  background-color: #c7f2ab;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 40px;
+  font-size: 12px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.home-image {
+  float: right;  
+}
+
+.home-page {
+  margin-top: 100px;
+}
+
+.logos {
+  background-color: #1668e8;
+  height: 80px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  font-size: 12px;
+  padding-left: 70px;
+}
+
+.logo-style {
+  margin-top: 10px;
+}
+
+
+.dashboard {
+  text-align: center;
+}
+
+.graph {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.paragraph {
+  margin-top: 40px;
+}
+
+.second-section {
+  margin-top: 100px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.forms {
+  width: 50px;
+  display: flex;
+}
+
+.register {
+  display: flex;
+  margin-top: -8px;
+}
+
+.input {
+  border-radius: 50px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.greating {
+  display: flex;
+}
+
+@media screen and (max-width: 750px) {
+  .home-phone {
+    margin-top: 50px;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .text {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .description {
+    margin-bottom: 30px;
+  }
+
+  .logos {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .title {
+    line-height: 45px;
   }
 }
