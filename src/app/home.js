@@ -19,26 +19,26 @@ function HomePage() {
                 <div className="description">
                     <span className="greating">
                     Hey,Everyone<Image
-                        Name="image"
+                        name="image"
                         src={icon}
                         alt="hand"
                     />
                     </span>
-                    <p className="text mb-3">
+                    <p className="text">
                         Newsify is the email
                         newsletter that works
                         completely automated
-                    </p> <br />
-                    <p>Track connections in real time. See who your
-                    community being lead by and find the most active</p> <br />
+                    </p> <br/>
+                    <p className="accroche">Track connections in real time. See who your
+                    community being lead by and find the most active</p> <br/>
                     <span className="forms">
                         <input type="text" id="search-navbar" className="block p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input" placeholder="Your email adress"/>&nbsp;&nbsp; 
                         <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-xm px-3 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button>
                     </span>
                 </div>
-                <div Name="home-image" className="grid justify-items-end home-phone">
+                <div className="home-image grid justify-items-end home-phone">
                     <Image
-                        Name="image"
+                        name="image"
                         src={phone}
                         alt="phone"
                     />
@@ -47,39 +47,39 @@ function HomePage() {
 
             <div className="logos grid grid-cols-7 gap-4">
                 <div><Image
-                        Name="image"
+                        name="image"
                         src={st}
                         alt="phone"
                     /></div>
                 <div><Image
-                        Name="image"
+                        name="image"
                         src={g}
                         alt="phone"
                     /></div>
                 <div><Image
                 className="logo-style"
-                        Name="image"
+                        name="image"
                         src={s}
                         alt="phone"
                     /></div>
                 <div><Image
                 className="logo-style"
-                        Name="image"
+                        name="image"
                         src={visa}
                         alt="phone"
                     /></div>
                 <div><Image
-                        Name="image"
+                        name="image"
                         src={sp}
                         alt="phone"
                     /></div>
                 <div><Image
-                        Name="image"
+                        name="image"
                         src={i}
                         alt="phone"
                     /></div>
                 <div><Image
-                        Name="image"
+                        name="image"
                         src={z}
                         alt="phone"
                     /></div>
@@ -95,9 +95,10 @@ function HomePage() {
                 <div className="graph">
                     <Image
                         className="h-auto mx-auto "
-                        Name="image"
+                        name="image"
                         src={dashboard}
                         alt="phone"
+                        width={919}
                     />
                 </div>
             </div>

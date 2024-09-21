@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 .top-header {
   background-color: #c7f2ab;
   height: 40px;
@@ -45,7 +46,11 @@
 }
 
 .paragraph {
-  margin-top: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 36px;
+  margin-top: 10px;
 }
 
 .second-section {
@@ -53,8 +58,11 @@
 }
 
 .title {
+  font-family: "Inter", sans-serif;
   font-size: 56px;
   font-weight: 700;
+  line-height: 72px;
+
 }
 
 .forms {
@@ -72,13 +80,20 @@
 }
 
 .text {
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 60px;
+  font-family: "Inter", sans-serif;
+  line-height: 96px;
+  font-weight: 600px;
+  font-size: 80px;
+
 }
 
 .greating {
   display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.42px;
+
 }
 
 @media screen and (max-width: 750px) {
@@ -87,9 +102,11 @@
   }
 
   .text {
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-weight: 600px;
+  font-size: 80px;
+  line-height: 96px;
+
   }
 
   .description {
@@ -104,4 +121,26 @@
   .title {
     line-height: 45px;
   }
+}
+
+.top-header {
+  font-family:"Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.topheader-button .menu .greating {
+  font-family: "Inter", sans-serif;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.42px;
+}
+
+.accroche {
+  color: red;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 34px;
 }

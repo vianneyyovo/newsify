@@ -5,7 +5,7 @@ import logo from '../app/fonts/logo.png'
 
 function NavBar() {
   return (
-    <div classNameName="nav-bar">
+    <div className="nav-bar">
       <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
         <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -13,7 +13,7 @@ function NavBar() {
               src={logo}
               alt="Logo"
             />
-            <span classNameName="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               
             </span>
           </a>
@@ -73,13 +73,13 @@ function NavBar() {
               <li>
                 <a
                   href="#"
-                  classNameName="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Demo
                 </a>
               </li>
               <li className="register">
-                  <input type="text" id="search-navbar" class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input" placeholder="Search..."/>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="text" id="search-navbar" className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input" placeholder="Search..."/>&nbsp;&nbsp;&nbsp;&nbsp;
                   <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-xm px-3 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
               </li>
             </ul>
