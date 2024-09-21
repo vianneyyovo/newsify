@@ -99,6 +99,8 @@
 @media screen and (max-width: 750px) {
   .home-phone {
     margin-top: 50px;
+    display: none;
+  
   }
 
   .text {
@@ -121,12 +123,20 @@
   .title {
     line-height: 45px;
   }
+
+  .top-header {
+    background-color: #c7f2ab;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    font-size: 8x;
+  }
 }
 
 .top-header {
   font-family:"Inter", sans-serif;
   font-weight: 400;
-  font-size: 14px;
   line-height: 16.94px;
 }
 
@@ -138,7 +148,6 @@
 }
 
 .accroche {
-  color: red;
   font-family: "Inter", sans-serif;
   font-weight: 400px;
   font-size: 22px;
